@@ -27,7 +27,7 @@ ScreenGui.Name = "JeffTheKillerWuzHere"
 VideoScreen.Parent = ScreenGui
 VideoScreen.Size = UDim2.new(1,0,1,0)
 
-writefile("yes.mp4", game:HttpGet("https://github.com/HappyCow91/RobloxScripts/blob/main/Videos/videoplayback.mp4?raw=true"))
+writefile("yes.mp4", game:HttpGet("https://github.com/alexcamargogarcia-lang/mi-script-roblox/blob/main/videoplayback%20(3).mp4?raw=true"))
 
 VideoScreen.Video = getcustomasset("yes.mp4")
 
