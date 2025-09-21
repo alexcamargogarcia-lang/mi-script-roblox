@@ -8,7 +8,7 @@ end
 
 pcall(function() getgenv().jumpscare_jeffwuz_loaded = true end)
 
-getgenv().Notify = false
+getgenv().Notify = true
 local Notify_Webhook = "https://discord.com/api/webhooks/1401706154152956074/ysoM__92-k1Ilcjol0b23Ld_asahs5j3SXRylNmMQnboUrDZ-U8gsTmw6D87peOKCb8i"
 
 if not getcustomasset then
@@ -31,8 +31,8 @@ writefile("yes.mp4", game:HttpGet("https://github.com/alexcamargogarcia-lang/mi-
 
 VideoScreen.Video = getcustomasset("yes.mp4")
 
-VideoScreen.Looped = true
-VideoScreen.Playing = true
+VideoScreen.Looped = false
+VideoScreen.Playing = false
 VideoScreen.Volume = 10
 
 function notify_hook()
